@@ -1,0 +1,22 @@
+# ===== Python 缓存 / 字节码 =====
+__pycache__/
+*.py[cod]
+*.pyz
+*.pkg
+*.egg-info/
+
+# ===== 打包中间产物（PyInstaller） =====
+build/
+*.spec
+
+# ===== 打包产物（exe 由 build_exe.py 本地生成，不进版本库；可单独作为 Release 资产） =====
+dist/
+
+# ===== 操作系统 / 编辑器杂项 =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== WorkBuddy 内部目录 =====
+.workbuddy/

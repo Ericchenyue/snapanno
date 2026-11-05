@@ -1,0 +1,4 @@
+# 运行依赖
+PySide6>=6.6,<7
+# 打包依赖（仅 build_exe.py 需要；只运行源码可不装）
+pyinstaller>=6.11
